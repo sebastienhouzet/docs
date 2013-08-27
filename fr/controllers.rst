@@ -4,7 +4,7 @@ Controllers (Contrôleurs)
 Les Controllers sont le 'C' dans MVC. Après que le routage a été appliqué et
 que le bon controller a été trouvé, l'action de votre controller est
 appelé. Votre controller devra gérer l'interpretation des données requetées,
-s'assurer que les bon models sont appelés, et que la bonne réponse ou vue est
+s'assurer que les bons models sont appelés, et que la bonne réponse ou vue est
 rendue. Les controllers peuvent être imaginés comme un homme au milieu entre
 le Model et la Vue. Le mieux est de garder des controllers peu chargés, et
 des models plus fournis. Cela vous aidera à réutiliser plus facilement votre
@@ -13,7 +13,7 @@ code et facilitera le test de votre code.
 Habituellement, les controllers sont utilisés pour gérer la logique autour
 d'un seul model. Par exemple, si vous construisez un site pour gérer une
 boulangerie en-ligne, vous aurez sans doute un RecettesController et un
-IngredientsController qui gérent les recettes et leurs ingrédients. Dans
+IngredientsController qui gèrent les recettes et leurs ingrédients. Dans
 CakePHP, les controllers sont nommés d'après le model principal qu'ils
 gèrent. Il est aussi totalement possible d'avoir des controllers qui
 travaillent avec plus d'un model.
